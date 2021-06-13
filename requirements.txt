@@ -1,0 +1,17 @@
+catboost
+jupyter
+jupyter-client
+jupyter-console
+jupyter-core
+matplotlib
+numpy
+pandas
+pickleshare
+pipreqs
+pyngrok
+python-dateutil
+scikit-learn
+seaborn
+smmap
+streamlit
+streamlit-ace
