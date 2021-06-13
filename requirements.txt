@@ -57,7 +57,7 @@ prompt-toolkit==3.0.4
 protobuf==3.17.3
 pyarrow==4.0.1
 pydeck==0.6.2
-Pygments==2.6.1
+Pygments==2.7.4
 pyngrok==5.0.5
 pyparsing==2.4.6
 pyrsistent==0.16.0
