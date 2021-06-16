@@ -47,13 +47,17 @@ def main():
     <h2 style ="color:white;text-align:center;"> Heart-disease Classifier </h2> 
     </div> 
     """
-    with st.sidebar:
-      if st.button("About"):
-          st.text("Visit [Github](https://github.com/celestial-shubham/ML-project)!!")
-          st.text("By Shubham Verma")
+    
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True) 
       
+     
+    with st.sidebar:
+      if st.button("About"):
+          st.write("Visit [Github](https://github.com/celestial-shubham/ML-project)!!")
+          st.text("By Shubham Verma")
+         
+        
     # following lines create boxes in which user can enter data required to make prediction 
     age = st.number_input("Enter Your Age :", min_value=1, max_value=100, value=50, step=1)
     sex = st.selectbox('sex',("Male","Female"))
