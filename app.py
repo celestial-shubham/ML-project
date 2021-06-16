@@ -47,7 +47,10 @@ def main():
     <h2 style ="color:white;text-align:center;"> Heart-disease Classifier </h2> 
     </div> 
     """
-      
+    with st.sidebar:
+      if st.button("About"):
+          st.text("Visit [Github](https://github.com/celestial-shubham/ML-project)!!")
+          st.text("By Shubham Verma")
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True) 
       
@@ -71,9 +74,7 @@ def main():
     if st.button("Report"): 
         result = prediction(age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal) 
         st.success('Your Report Says {}'.format(result))
-    if st.button("About"):
-        st.text("Let's Learn")
-        st.text("By Shubham Verma")
+        st.balloons()
      
 if __name__=='__main__':
     main()
