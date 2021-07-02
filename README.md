@@ -51,3 +51,31 @@ Given clinical parameters about a patient ,can we predict whether or not they ha
   * 6: fixed defect: used to be defect but ok now
   * 7: reversable defect: no proper blood movement when excercising
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
+
+# Visulaising Data
+
+![image](https://user-images.githubusercontent.com/47259965/124319313-a6357d00-db97-11eb-902f-e57dd97975ea.png)
+
+![image](https://user-images.githubusercontent.com/47259965/124319491-ed237280-db97-11eb-8646-04e3d73675c5.png)
+
+
+## Model Evaluation
+ ##### we are going to try 3 different ML models for this classification problems.
+
+   * Logistic Regression
+   * K-Nearest Neighbours Classifier
+   * Random Forest Classifier
+
+ ![image](https://user-images.githubusercontent.com/47259965/124319733-50150980-db98-11eb-875e-03079c92b878.png)
+
+
+## Feature importance of data
+ ![image](https://user-images.githubusercontent.com/47259965/124319827-76d34000-db98-11eb-8317-c9a18d02fb66.png)
+
+# Result
+We are able to achieve more than 88% of accuracy using Logistic Regression in our Heart-Disease Analysis Classification Model
+
+
+## Deployment of model 
+  The deployment script App.py is given in github.
+ The final working model is deployed Heroku :: https://heart-disease-predictor-new.herokuapp.com/
